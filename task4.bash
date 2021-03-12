@@ -9,3 +9,5 @@ grep -w “^$line” z1.vcf >> result.txt
 done
 
 # the second way
+awk 'NR==FNR{a[$1,$2]=$0;next}{print a[$1,$2]}' z1.vcf 4d_n.bed1 > a
+grep -v '^$' a > out.vcf
