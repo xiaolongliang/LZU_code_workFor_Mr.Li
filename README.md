@@ -1,4 +1,4 @@
-# Save_R_code
+
  This is a code repository worked for Mr.Li from LZAU.
 ## task1 match
  vcf文件和bed文件的匹配，当vcf文件的contig的范围在bed文件的contig的范围之内时，用匹配上的bed文件的LG及范围作为vcf文件的第四五六列
